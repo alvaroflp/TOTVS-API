@@ -12,3 +12,7 @@ Lembre-se de que, embora a TOTVS-API ofereça recursos de integração com o sis
 ### [Horse.Compression](https://github.com/HashLoad/horse-compression)
 
 ### [Dataset Serialize](https://github.com/viniciussanchez/dataset-serialize)
+
+# Observações
+
+Deve-se preencher o arquivo `config.ini` contido em [Source](https://github.com/alvaroflp/TOTVS-API/tree/main/Source/Win32/Debug) com as informações do ambiente de banco de dados do seu cenário.
