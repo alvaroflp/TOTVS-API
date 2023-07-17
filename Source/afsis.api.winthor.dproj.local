@@ -15,6 +15,8 @@
     <Transaction>2023/07/14 11:49:57.000.571,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Controller\Controller.Clientes.pas</Transaction>
     <Transaction>2023/07/17 10:13:29.690,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
     <Transaction>2023/07/17 10:13:41.991,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Model\Model.Fornecedores.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
+    <Transaction>2023/07/17 13:56:05.532,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
+    <Transaction>2023/07/17 13:56:46.975,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Controller\Controller.Fornecedores.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile iOSSimulator="iPhone5"/>

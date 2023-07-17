@@ -183,6 +183,7 @@
         <DCCReference Include="..\Model\Model.Clientes.pas"/>
         <DCCReference Include="..\Controller\Controller.Clientes.pas"/>
         <DCCReference Include="..\Model\Model.Fornecedores.pas"/>
+        <DCCReference Include="..\Controller\Controller.Fornecedores.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

@@ -14,7 +14,8 @@ uses
   Model.Connection in '..\Model\Model.Connection.pas',
   Model.Clientes in '..\Model\Model.Clientes.pas',
   Controller.Clientes in '..\Controller\Controller.Clientes.pas',
-  Model.Fornecedores in '..\Model\Model.Fornecedores.pas';
+  Model.Fornecedores in '..\Model\Model.Fornecedores.pas',
+  Controller.Fornecedores in '..\Controller\Controller.Fornecedores.pas';
 
 const
     VersionAPI = '1.0.0';
@@ -41,6 +42,7 @@ begin
     .Use(Jhonson());
 
   Controller.Clientes.Registry;
+  Controller.Fornecedores.Registry;
 
   THorse.Listen(9000,
     procedure(Horse: THorse)
