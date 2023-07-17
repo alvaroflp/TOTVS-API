@@ -13,7 +13,8 @@ uses
   System.SysUtils,
   Model.Connection in '..\Model\Model.Connection.pas',
   Model.Clientes in '..\Model\Model.Clientes.pas',
-  Controller.Clientes in '..\Controller\Controller.Clientes.pas';
+  Controller.Clientes in '..\Controller\Controller.Clientes.pas',
+  Model.Fornecedores in '..\Model\Model.Fornecedores.pas';
 
 const
     VersionAPI = '1.0.0';

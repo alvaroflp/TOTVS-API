@@ -6,13 +6,15 @@
     <Transaction>2023/07/10 13:06:30.000.220,=C:\Users\Álvaro Felipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2023/07/10 23:28:58.000.568,=C:\Users\Álvaro Felipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2023/07/13 16:09:21.000.098,=C:\Users\Álvaro Felipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/14 09:05:29.014,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\afsis.api.winthor.dproj=C:\Users\Álvaro Felipe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2023/07/14 09:05:41.766,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
-    <Transaction>2023/07/14 09:05:54.401,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Model\Model.Connection.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
-    <Transaction>2023/07/14 10:04:21.373,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
-    <Transaction>2023/07/14 10:04:38.123,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Model\Model.Clientes.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
-    <Transaction>2023/07/14 11:49:44.307,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
-    <Transaction>2023/07/14 11:49:57.571,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Controller\Controller.Clientes.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
+    <Transaction>2023/07/14 09:05:29.000.014,C:\Users\Álvaro Felipe\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\afsis.api.winthor.dproj</Transaction>
+    <Transaction>2023/07/14 09:05:41.000.766,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
+    <Transaction>2023/07/14 09:05:54.000.401,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Model\Model.Connection.pas</Transaction>
+    <Transaction>2023/07/14 10:04:21.000.373,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
+    <Transaction>2023/07/14 10:04:38.000.123,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Model\Model.Clientes.pas</Transaction>
+    <Transaction>2023/07/14 11:49:44.000.307,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
+    <Transaction>2023/07/14 11:49:57.000.571,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Controller\Controller.Clientes.pas</Transaction>
+    <Transaction>2023/07/17 10:13:29.690,=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
+    <Transaction>2023/07/17 10:13:41.991,C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Model\Model.Fornecedores.pas=C:\Users\Álvaro Felipe\Documents\Códigos\Delphi\TOTVS-API\Source\Unit1.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile iOSSimulator="iPhone5"/>
