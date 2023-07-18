@@ -30,7 +30,7 @@ begin
     Fornecedores := TFornecedores.Create;
   except
     if Res.Status = 401 then
-      Res.Send('Falha na autenticação')
+      Res.Send('Falha na autenticaï¿½ï¿½o')
     else if Res.Status = 500 then
       Res.Send('Erro ao conectar no banco de dados');
     exit;
@@ -46,7 +46,7 @@ begin
       end
       else
         begin
-          Res.Send('Não foi possível encontrar o recurso solicitado. Verifique a consulta SQL').Status(404);
+          Res.Send('Nï¿½o foi possï¿½vel encontrar o recurso solicitado. Verifique a consulta SQL').Status(404);
         end;
   finally
     QRY.Free;
@@ -67,7 +67,7 @@ begin
     Fornecedores.CodFornec := Req.Params['CodFornec'].ToUpper;
   except
     if Res.Status = 401 then
-      Res.Send('Falha na autenticação')
+      Res.Send('Falha na autenticaï¿½ï¿½o')
     else if Res.Status = 500 then
       Res.Send('Erro ao conectar no banco de dados');
     exit;
@@ -83,7 +83,7 @@ begin
       end
       else
         begin
-          Res.Send('Não foi possível encontrar o recurso solicitado. Verifique a consulta SQL').Status(404);
+          Res.Send('Nï¿½o foi possï¿½vel encontrar o recurso solicitado. Verifique a consulta SQL').Status(404);
         end;
   finally
     QRY.Free;
@@ -94,7 +94,7 @@ end;
 procedure Registry;
 begin
   THorse.Get('fornecedores/v1/', GetFornecedores);
-  THorse.Get('fornecedores/v1/:codcli', GetFornecedor);
+  THorse.Get('fornecedores/v1/:codfornec', GetFornecedor);
 end;
 
 end.

@@ -15,7 +15,9 @@ uses
   Model.Clientes in '..\Model\Model.Clientes.pas',
   Controller.Clientes in '..\Controller\Controller.Clientes.pas',
   Model.Fornecedores in '..\Model\Model.Fornecedores.pas',
-  Controller.Fornecedores in '..\Controller\Controller.Fornecedores.pas';
+  Controller.Fornecedores in '..\Controller\Controller.Fornecedores.pas',
+  Model.Vendedores in '..\Model\Model.Vendedores.pas',
+  Controller.Vendedores in '..\Controller\Controller.Vendedores.pas';
 
 const
     VersionAPI = '1.0.0';
@@ -43,13 +45,14 @@ begin
 
   Controller.Clientes.Registry;
   Controller.Fornecedores.Registry;
+  Controller.Vendedores.Registry;
 
   THorse.Listen(9000,
     procedure(Horse: THorse)
     begin
     {$IFDEF DEBUG}
       WriteLn('Versão em modo *** DEBUG ***');
-      WriteLn('Build: Delphi and C++ Builder Architect 11 Update 3 [Alexandria]');
+      WriteLn('Build: Delphi Architect 11 Update 3 [Alexandria]');
       WriteLn('Autor: Álvaro Felipe');
       WriteLn('Projeto: afsis.api.winthor');
       WriteLn(Format('Credenciais de uso: Usuário: %s, Senha: %s', [FUser, FPswd]));
@@ -59,7 +62,7 @@ begin
 
     {$ELSE}
       WriteLn('Versão em modo *** RELEASE ***');
-      WriteLn('Build: Delphi and C++ Builder Architect 11 Update 3 [Alexandria]');
+      WriteLn('Build: Delphi Architect 11 Update 3 [Alexandria]');
       WriteLn('Autor: Álvaro Felipe');
       WriteLn('Projeto: afsis.api.winthor');
       WriteLn(Format('Credenciais de uso: Usuário: %s, Senha: %s', [FUser, FPswd]));
