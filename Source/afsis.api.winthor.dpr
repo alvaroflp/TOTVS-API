@@ -17,12 +17,14 @@ uses
   Model.Fornecedores in '..\Model\Model.Fornecedores.pas',
   Controller.Fornecedores in '..\Controller\Controller.Fornecedores.pas',
   Model.Vendedores in '..\Model\Model.Vendedores.pas',
-  Controller.Vendedores in '..\Controller\Controller.Vendedores.pas';
+  Controller.Vendedores in '..\Controller\Controller.Vendedores.pas',
+  Model.Filiais in '..\Model\Model.Filiais.pas',
+  Controller.Filiais in '..\Controller\Controller.Filiais.pas';
 
 const
-    VersionAPI = '1.0.0';
-    FUser = 'afsis';
-    FPswd = 'af$1s';
+  VersionAPI = '1.0.0';
+  FUser = 'afsis';
+  FPswd = 'af$1s';
 
 begin
 {$IFDEF MSWINDOWS}
@@ -46,6 +48,7 @@ begin
   Controller.Clientes.Registry;
   Controller.Fornecedores.Registry;
   Controller.Vendedores.Registry;
+  Controller.Filiais.Registry;
 
   THorse.Listen(9000,
     procedure(Horse: THorse)
